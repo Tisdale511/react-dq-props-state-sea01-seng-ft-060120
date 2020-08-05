@@ -43,7 +43,7 @@ export default class MasterHog extends Component {
         
         <ul className="hoglist">
          {offspring.map(hog => {
-            return <BabyHog color={this.state.eyeColor} hobby={hog.hobby}/>
+            return <BabyHog color={this.state.eyeColor} hobby={hog.hobby} name={hog.name}/>
           })
           }
 

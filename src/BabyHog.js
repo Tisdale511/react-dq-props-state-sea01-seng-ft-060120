@@ -33,7 +33,7 @@ export default class BabyHog extends Component {
   render() {
     return (
       <li className="hogbabies">
-        <h1>Name</h1>
+        <h1>Name: {this.props.name}</h1>
         <h3>Weight: {this.state.weight}</h3>
         <h3>Hobby: {this.props.hobby}</h3>
         <h4>Eye Color: {this.props.color}</h4>
